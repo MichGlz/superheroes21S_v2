@@ -2,6 +2,36 @@
   box-sizing: border-box; /* 'bxz' */
 }
 
+main {
+  width: min(1600px, 80vw);
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  gap: 3rem;
+}
+
+article {
+  background-color: white;
+  border: black;
+  border-style: solid;
+  border-radius: 1vw;
+  padding: 1rem;
+  transform-origin: center;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+article:hover {
+  transform: scale(1.2);
+}
+
+article > * {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
 img {
   max-width: 100%;
   height: auto;

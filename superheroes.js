@@ -8,7 +8,7 @@ const superheroes = [
     cape: true,
     weaknesses: ["Has kids", "Curry Herring", "Rainbows"],
     image:
-      "https://static.wikia.nocookie.net/warhammer40k/images/7/74/Necron10.jpg/revision/latest/scale-to-width-down/340?cb=20130318163052",
+      "https://static.wikia.nocookie.net/warhammer40k/images/7/74/Necron10.jpg",
     enemies: 3,
     sidekick: {
       name: "YesMan",
@@ -24,7 +24,7 @@ const superheroes = [
     cape: true,
     weaknesses: ["beer", "Playstation 5"],
     image:
-      "https://pbs.twimg.com/profile_images/1143328243782582272/hxgd_dsN_400x400.png",
+      "https://pbs.twimg.com/profile_images/1143328243782582272/hxgd_dsN.png",
     enemies: 103,
     sidekick: {
       name: "RakeMan",
@@ -84,7 +84,7 @@ const superheroes = [
     cape: false,
     weaknesses: ["Cupcakes", "Puppies", "Margaritas"],
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fsuper-woman-female-superhero-cartoon-clipart-vector-19326692&psig=AOvVaw1OYKExLbQWqg5fq697COHN&ust=1612601429340000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDAkeOu0u4CFQAAAAAdAAAAABAD",
+      "https://cdn3.vectorstock.com/i/1000x1000/66/92/super-woman-female-superhero-cartoon-clipart-vector-19326692.jpg",
     enemies: 2,
     sidekick: {
       name: "PuppyDoll",
@@ -203,7 +203,8 @@ const superheroes = [
     mission: "Bring peace to the outside world",
     weaknesses: [" vulnerability, weak skin"],
     cape: true,
-    image: "https://www.instagram.com/p/CGUKTglAHna/",
+    image:
+      "https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/121396611_179104227037715_1065848300839498755_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=4p7Ro4nffh8AX-VwVv9&tp=1&oh=ceab0b0d46ceb62268d6432ccd2b5da7&oe=60490587",
     enemies: 3,
     sidekick: {
       name: "Cassie",
@@ -312,7 +313,7 @@ const superheroes = [
     cape: true,
     weaknesses: ["Loves Ocean", "Has Sensitive Nipples"],
     image:
-      "https://www.google.com/search?q=shark+superhero&sxsrf=ALeKk03XLJDFA0sB7bWUUpiXZuSqNiMFkA:1612514285873&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi9mtHpq9LuAhWLilwKHcCKAbAQ_AUoAXoECBYQAw&biw=1621&bih=896#imgrc=2RTsRdEGF_3yqM",
+      "https://seanmills6.files.wordpress.com/2020/08/shark-list-03.jpg?w=524",
     enemies: 1,
     sidekick: {
       name: "Morena",
@@ -328,7 +329,7 @@ const superheroes = [
     cape: true,
     weaknesses: ["Has kids", "Curry Herring", "Rainbows"],
     image:
-      "https://static.wikia.nocookie.net/warhammer40k/images/7/74/Necron10.jpg/revision/latest/scale-to-width-down/340?cb=20130318163052",
+      "https://static.wikia.nocookie.net/warhammer40k/images/7/74/Necron10.jpg",
     enemies: 3,
     sidekick: {
       name: "YesMan",
@@ -361,7 +362,7 @@ const superheroes = [
     cape: false,
     weaknesses: ["Puppies", "Coffee", "Ice"],
     image:
-      "https://www.pexels.com/photo/people-wearing-spider-man-adult-costume-walking-on-train-station-2859016/",
+      "https://images.pexels.com/photos/2859016/pexels-photo-2859016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     enemies: 4,
     sidekick: {
       name: "NoBody",
@@ -409,7 +410,7 @@ const superheroes = [
     cape: false,
     weaknesses: ["Is allergic", "Dogs", "Water"],
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fjoeshusterawards.files.wordpress.com%2F2009%2F07%2Fcwsdccprint.jpg&imgrefurl=https%3A%2F%2Fjoeshusterawards.com%2F2009%2F07%2F21%2Fsdcci-cameron-stewart-at-splash-page-art-booth%2F&tbnid=vDyFeRJJekpQRM&vet=12ahUKEwiumLHNrtLuAhXZO-wKHW0jCPYQMygEegUIARCPAQ..i&docid=2MqyimWwBPgKCM&w=684&h=1000&itg=1&q=cat%20woman%20with%20cats&hl=is&ved=2ahUKEwiumLHNrtLuAhXZO-wKHW0jCPYQMygEegUIARCPAQ",
+      "https://joeshusterawards.files.wordpress.com/2009/07/cwsdccprint.jpg",
     enemies: 1,
     sidekick: {
       name: "The Pet Rescuer",
@@ -424,7 +425,8 @@ const superheroes = [
     mission: "Teach everybody to do make-up",
     weaknesses: ["Drugstore make-up"],
     cape: false,
-    image: "https://unsplash.com/photos/YGmk9UZMdZg",
+    image:
+      "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80",
     enemies: 0,
     sidekick: {
       name: "SkincareGuru",
@@ -460,7 +462,8 @@ const superheroes = [
       "Play songs while flying invisible so no one knows where they come from",
     cape: false,
     weaknesses: ["violins", "snow"],
-    image: "https://comicvine.gamespot.com/images/1300-4496837",
+    image:
+      "https://comicvine1.cbsistatic.com/uploads/original/14/148344/4496837-sin%20t%C3%ADtulo.png",
     enemies: 2,
     sidekick: {
       name: "White Keys",
@@ -476,7 +479,7 @@ const superheroes = [
     cape: true,
     weaknesses: ["Shopping addiction", "Pretty girls"],
     image:
-      "https://static.wikia.nocookie.net/villains/images/7/7c/Mistress_9.jpg/revision/latest?cb=20121103205235",
+      "https://static.wikia.nocookie.net/villains/images/7/7c/Mistress_9.jpg",
     enemies: 5,
     sidekick: {
       name: "George",
@@ -492,7 +495,7 @@ const superheroes = [
     cape: false,
     weaknesses: ["Loves cats", "Pizza", "Rain"],
     image:
-      "https://www.google.com/search?q=magic+poison+cat+woman&tbm=isch&ved=2ahUKEwic6N2irdLuAhWQ_6QKHYDlDoYQ2-cCegQIABAA&oq=magic+poison+cat+woman&gs_lcp=CgNpbWcQAzIECCMQJ1CcPVjiQGC3RGgAcAB4AIABS4gB5gKSAQE1mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=cgUdYJznApD_kwWAy7uwCA&bih=948&biw=1604#imgrc=dKt8GK-0kLw2uM",
+      "https://static.comicvine.com/uploads/original/11132/111329300/6520932-image-19h.png",
     enemies: 5,
     sidekick: {
       name: "InvisibleMan",
@@ -509,7 +512,7 @@ const superheroes = [
     cape: false,
     weaknesses: ["Short", "Bread", "Mondays"],
     image:
-      "https://static.wikia.nocookie.net/p__/images/2/2f/Fox_SSBU.png/revision/latest/scale-to-width-down/700?cb=20180613143948&path-prefix=protagonist",
+      "http://pm1.narvii.com/7356/4ecd41080c5be4d0136ec6bc7c19b0be82f9f932r1-512-512v2_uhq.jpg",
     enemies: 2,
     sidekick: {
       name: "BigRat",
@@ -524,8 +527,7 @@ const superheroes = [
     mission: "Assassination of the king",
     cape: true,
     weaknesses: ["Beer", "Long-haired humans"],
-    image:
-      "https://static.wikia.nocookie.net/sciffy/images/8/8b/Half-Orc.jpg/revision/latest/scale-to-width-down/909?cb=20200608012844",
+    image: "https://static.wikia.nocookie.net/sciffy/images/8/8b/Half-Orc.jpg",
     enemies: 500,
     sidekick: {
       name: "Varg",
@@ -608,7 +610,7 @@ const superheroes = [
     cape: false,
     weaknesses: ["Sidekick", "Blenders", "Peter Pedal"],
     image:
-      "https://www.google.com/search?q=banana+in+pyjamas+illustration&tbm=isch&ved=2ahUKEwi0kuGmrdLuAhVJgosKHS15Cw0Q2-cCegQIABAA&oq=banana+in+pyjamas+illustration&gs_lcp=CgNpbWcQAzoECCMQJzoCCAA6BggAEAcQHjoECAAQHjoECAAQEzoGCAAQCBAeUIH8AVjBowJggaYCaABwAHgAgAFwiAGcCJIBBDEzLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=egUdYLTtHcmErgSt8q1o&bih=729&biw=1317#imgrc=vUDRlG3RqzqrPM",
+      "https://www.heavencostumes.com.au/media/catalog/product/cache/3ca7c4de79fd9294a778cbfdebc9dde4/s/m/smf-33131-bananas-in-pajamas-deluxe-mens-costume-700.jpg",
     enemies: 1,
     sidekick: {
       name: "King of the Banana Flies",
@@ -674,7 +676,7 @@ const superheroes = [
     cape: false,
     weaknesses: ["Pink stuff", "no coffee"],
     image:
-      "https://intothespiderverse.fandom.com/wiki/Sp//dr(Earth-14512)?file=SP-dr.jpg",
+      "https://static.wikia.nocookie.net/intothespiderverse/images/a/a0/SP-dr.jpg",
     enemies: 2.825,
     sidekick: {
       name: "Memestress",
@@ -706,7 +708,7 @@ const superheroes = [
     cape: true,
     weaknesses: ["raisins", "black chocolate", "rain"],
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F572309065149445481%2F&psig=AOvVaw150bzitDUwjyslWj8pFcom&ust=1612600827166000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjj9bWs0u4CFQAAAAAdAAAAABAJ",
+      "https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/88386348_535796910397847_7815693575779102100_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=YwE8dXq8ga8AX_FXdh3&tp=1&oh=be6c8a522b2608ae1e98bf56fd60f5c4&oe=6047790B",
     enemies: 2,
     sidekick: {
       name: "KitKAT",
@@ -764,3 +766,30 @@ const superheroes = [
   },
 ];
 //Start your code here
+
+console.log(superheroes.length);
+
+//This is the object that you should use to "populate" the template
+//const superheroes
+superheroes.forEach(creatCard);
+
+function creatCard(heroe) {
+  //Step 1: Chose the <template>'s content
+  const template = document.querySelector("#superHeroes").content;
+
+  //Step 2: Make a "clone"
+  const copy = template.cloneNode(true);
+
+  //Step 3: Change the content of the clone
+  //use the data from the object above (you can do this when the rest is working)
+  copy.querySelector("h1").textContent = heroe.alias;
+  copy.querySelector("h2").textContent = heroe.id;
+  copy.querySelector("img").src = heroe.image;
+  copy.querySelector("p").textContent = `weaknesses: ${heroe.weaknesses}`;
+
+  //Step 4: Chose the new "parent" element
+  //Append it to main
+  const parent = document.querySelector("main");
+  //Step 5: Add (Append) the clone to the DOM
+  parent.appendChild(copy);
+}
