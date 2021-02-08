@@ -782,10 +782,20 @@ function creatCard(heroe) {
 
   //Step 3: Change the content of the clone
   //use the data from the object above (you can do this when the rest is working)
-  copy.querySelector("h1").textContent = heroe.alias;
-  copy.querySelector("h2").textContent = heroe.id;
+  copy.querySelector("h2").textContent = heroe.alias;
+  copy.querySelector("h3").textContent = heroe.id;
   copy.querySelector("img").src = heroe.image;
-  copy.querySelector("p").textContent = `weaknesses: ${heroe.weaknesses}`;
+
+  const superPowers = "";
+  let x = heroe.powers.length;
+  console.log(x);
+  let y = heroe.weaknesses.length;
+  console.log("weaknesses" + y);
+
+  copy.querySelector(
+    "p"
+  ).textContent = `The super powers are ${heroe.powers[0]}, ${heroe.powers[1]}, ${heroe.powers[2]}, ${heroe.powers[3]}, ${heroe.powers[4]}, ${heroe.powers[5]} the weaknesses are ${heroe.weaknesses[0]}, ${heroe.weaknesses[1]}, ${heroe.weaknesses[2]} and the side kick is ${heroe.sidekick.name}`;
+
   if (heroe.cape == true) {
     copy.querySelector("article").classList.add("cape");
   }

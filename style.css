@@ -17,6 +17,10 @@ main {
   gap: 3rem;
 }
 
+header {
+  background-color: black;
+}
+
 article {
   background-color: white;
   border: black;
@@ -39,17 +43,40 @@ article > * {
 }
 
 h1 {
+  color: antiquewhite;
+  font-family: bangers;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
   font-family: bangers;
   font-size: 2rem;
 }
 
+h3 {
+  color: whitesmoke;
+  background-color: black;
+  font-size: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 img {
+  margin-top: 1rem;
   max-width: 100%;
   height: auto;
+  margin-bottom: 1rem;
 }
 
 .cape {
   border: rgb(151, 17, 17);
   border-style: solid;
   border-width: 5px;
+}
+
+p {
+  margin-top: auto;
+
+  max-width: 30ch;
 }
