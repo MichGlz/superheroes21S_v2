@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins&family=Roboto&display=swap");
+
 * {
   box-sizing: border-box; /* 'bxz' */
+}
+
+body {
+  font-family: roboto;
 }
 
 main {
@@ -32,7 +38,18 @@ article > * {
   font-size: 0.9rem;
 }
 
+h1 {
+  font-family: bangers;
+  font-size: 2rem;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+.cape {
+  border: rgb(151, 17, 17);
+  border-style: solid;
+  border-width: 5px;
 }

@@ -786,6 +786,9 @@ function creatCard(heroe) {
   copy.querySelector("h2").textContent = heroe.id;
   copy.querySelector("img").src = heroe.image;
   copy.querySelector("p").textContent = `weaknesses: ${heroe.weaknesses}`;
+  if (heroe.cape == true) {
+    copy.querySelector("article").classList.add("cape");
+  }
 
   //Step 4: Chose the new "parent" element
   //Append it to main
